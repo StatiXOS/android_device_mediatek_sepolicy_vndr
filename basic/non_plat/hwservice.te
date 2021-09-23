@@ -62,3 +62,6 @@ type dms_hwservice, hwservice_manager_type;
 
 # NFC
 type nxpnfc_hwservice, hwservice_manager_type;
+
+# VPU
+type hal_neuralnetworks_hwservice, hwservice_manager_type;
