@@ -38,4 +38,4 @@ allow fuelgauged_nvram sysfs_dt_firmware_android:file { getattr open read };
 allow fuelgauged_nvram sysfs_boot_mode:file { open read };
 
 # Purpose: Allow to search metadata files
-allow fuelgauged_nvram metadata_file:dir search;
+allow fuelgauged_nvram { metadata_file gsi_metadata_file }:dir search;
