@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13cd379e_869e4845",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000048
+      },
+      "writtenOn": "2021-09-23T15:03:15Z",
+      "side": 1,
+      "message": "Vaisakh, I would also like to bring to your notice that if some developers end up using stock prebuilt ST NFC stack (android.hardware.nfc@1.x-service-st, where x\u003d{0,1,2}) they\u0027ll end up with denials as well. In my opinion, it would be saner to add the android.hardware.nfc@1.x-service.st alongside the older ones as well, since it\u0027d address both the HALs, although I\u0027d prefer developers to move to upstream AOSP as soon as possible. ",
+      "revId": "5593fd0ba90c2d711e5ef4ad942efc99bfaf7969",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
