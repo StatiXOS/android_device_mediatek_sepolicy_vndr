@@ -68,3 +68,16 @@ allow ccci_fsd sysfs_mmcblk:file { read getattr open };
 
 # ccci_fsd kernel modules
 allow ccci_fsd kernel:system module_request;
+
+# Proc read perms
+allow ccci_fsd {
+    proc_version
+    proc_cmdline
+}:file read;
+
+# Search perms
+allow ccci_fsd {
+    metadata_file
+    sysfs_devices_block
+    sysfs_dt_firmware_android
+}:dir search;
