@@ -41,7 +41,7 @@ type debug_mtk_aeev_prop, property_type, mtk_core_property_type;
 type ro_mtk_aee_prop, property_type, mtk_core_property_type;
 
 #=============allow aee_dumpstate==============
-type debug_bq_dump_prop, property_type, extended_core_property_type;
+vendor_public_prop(debug_bq_dump_prop)
 
 #=============allow vendor_video_prop==============
 type vendor_video_prop, property_type;
