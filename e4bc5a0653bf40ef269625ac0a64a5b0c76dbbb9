@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed3b38bb_1816f000",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000047
+      },
+      "writtenOn": "2021-11-23T07:17:58Z",
+      "side": 1,
+      "message": "This resolves all the redundant neverallows with existing mtk sepolicy",
+      "revId": "e4bc5a0653bf40ef269625ac0a64a5b0c76dbbb9",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
