@@ -72,7 +72,6 @@ allow vendor_init expdb_block_device:blk_file rw_file_perms;
 
 set_prop(vendor_init, vendor_mtk_wifi_hotspot_prop)
 set_prop(vendor_init, vendor_mtk_wifi_hal_prop)
-set_prop(vendor_init, vendor_power_prop)
 
 # mmstat tracer
 allow vendor_init debugfs_tracing_instances:dir create_dir_perms;
@@ -166,9 +165,6 @@ set_prop(vendor_init, vendor_mtk_neuropilot_flag_prop)
 # Purpose: for non-5G GKI platform
 set_prop(vendor_init, vendor_mtk_mdrsra_v2_support_prop)
 set_prop(vendor_init, vendor_mtk_xfrm_support_prop)
-
-# Power
-set_prop(vendor_init, vendor_power_prop)
 
 # Allow vendor_init to write to sysfs_devices_block
 allow vendor_init sysfs_devices_block:file w_file_perms;
