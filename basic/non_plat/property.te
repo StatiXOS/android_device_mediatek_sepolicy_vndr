@@ -85,6 +85,7 @@ vendor_restricted_prop(vendor_mtk_ril_ipo_prop)
 vendor_restricted_prop(vendor_mtk_ril_mode_prop)
 vendor_restricted_prop(vendor_mtk_ril_mux_report_case_prop)
 vendor_restricted_prop(vendor_mtk_service_nvram_init_prop)
+vendor_restricted_prop(vendor_mtk_service_nvram_restore_prop)
 vendor_restricted_prop(vendor_mtk_simswitch_emmode_prop)
 vendor_restricted_prop(vendor_mtk_smsformat_prop)
 vendor_restricted_prop(vendor_mtk_ss_vendor_prop)
@@ -178,6 +179,7 @@ typeattribute vendor_mtk_ril_ipo_prop                mtk_core_property_type;
 typeattribute vendor_mtk_ril_mode_prop               mtk_core_property_type;
 typeattribute vendor_mtk_ril_mux_report_case_prop    mtk_core_property_type;
 typeattribute vendor_mtk_service_nvram_init_prop     mtk_core_property_type;
+typeattribute vendor_mtk_service_nvram_restore_prop  mtk_core_property_type;
 typeattribute vendor_mtk_simswitch_emmode_prop       mtk_core_property_type;
 typeattribute vendor_mtk_smsformat_prop              mtk_core_property_type;
 typeattribute vendor_mtk_ss_vendor_prop              mtk_core_property_type;
