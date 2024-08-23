@@ -2,8 +2,6 @@
 # Common SEPolicy Rule
 # ==============================================
 
-ro.audio.usb.period_us u:object_r:exported_default_prop:s0 exact int
-
 persist.adb.nonblocking_ffs u:object_r:exported_default_prop:s0 exact int
 
 vendor.MB.logpost         u:object_r:system_mtk_mobile_log_post_prop:s0
